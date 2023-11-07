@@ -32,7 +32,7 @@ main {
     height: 250px;
 }
 
-#perfil {
+.foto-perfil {
     width: 80px;
     padding-top: 25px;
     padding-left: 25px;
@@ -40,20 +40,20 @@ main {
 
 /*Texto do Perfil*/
 
-#text-1 {
+.text-1 {
     font-size: 15px;
     font-weight: 100;
     padding-left: 5px;
     color: rgba(255, 255, 255, 0.589);
 }
 
-#text-2 {
+.text-2 {
     color: white;
     padding-top: 10px;
     padding-left: 5px;
 }
 
-#info {
+.info {
     padding-left: 20px;
     padding-top: 25px;
 }
@@ -74,17 +74,17 @@ main {
     padding-left: 25px;
 }
 
-#daily {
+.daily {
     color: rgba(255, 255, 255, 0.589);
     padding-top: 55px;
 }
 
-#weekly {
+.weekly {
     color: white;
     padding-top: 15px;
 }
 
-#monthly {
+.monthly {
     color: rgba(255, 255, 255, 0.589);
     padding-top: 15px;
 }
