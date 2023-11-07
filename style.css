@@ -1,10 +1,13 @@
 * {
     margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{background-color: rgb(40, 9, 151);}
+body {
+    background-color: rgb(40, 9, 151);
+}
 
-main{
+main {
     width: 80%;
     height: 100%;
     margin: 64px auto;
@@ -12,7 +15,7 @@ main{
     align-items: center;
     flex-wrap: wrap;
     align-content: space-between;
-    
+
 }
 
 /*Section do Perfil*/
@@ -38,7 +41,6 @@ main{
 /*Texto do Perfil*/
 
 #text-1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     font-weight: 100;
     padding-left: 5px;
@@ -46,7 +48,6 @@ main{
 }
 
 #text-2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
     color: white;
     padding-top: 10px;
     padding-left: 5px;
@@ -74,155 +75,40 @@ main{
 }
 
 #daily {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(255, 255, 255, 0.589);
     padding-top: 55px;
 }
 
 #weekly {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     padding-top: 15px;
 }
 
 #monthly {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(255, 255, 255, 0.589);
     padding-top: 15px;
 }
 
 /*Section "Work"*/
 
-.work {
-    background-color: rgb(30, 1, 82);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    
-}
-
-.work-background {
-    background-color: rgb(206, 156, 83);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    margin-top: -190px;
-    position: relative;
-    z-index: -1;
-}
-
-/*Section Play*/
-
-.play {
-    background-color: rgb(30, 1, 82);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    
-}
-
-.play-background {
-    background-color: rgb(105, 195, 255);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    margin-top: -190px;
-    position: relative;
-    z-index: -1;
-}
-
-/*Section Study*/
-
-.study {
-    background-color: rgb(30, 1, 82);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    
-}
-
-.study-background {
-    background-color: rgb(252, 107, 252);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    margin-top: -190px;
-    position: relative;
-    z-index: -1;
-}
-
-/*Section Play*/
-
-.play {
-    background-color: rgb(30, 1, 82);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    
-}
-
-.play-background {
-    background-color: rgb(105, 195, 255);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    margin-top: -190px;
-    position: relative;
-    z-index: -1;
-}
-
-/*Section Exercise*/
-
-.exercise {
-    background-color: rgb(30, 1, 82);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    
-}
-
-.exercise-background {
-    background-color: rgb(151, 255, 165);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    margin-top: -190px;
-    position: relative;
-    z-index: -1;
-}
-
-/*Section Social*/
-
-.social {
-    background-color: rgb(30, 1, 82);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    
-}
-
-.social-background {
-    background-color: rgb(118, 42, 218);
-    border-radius: 15px;
-    width: 200px;
-    height: 150px;
-    margin-top: -190px;
-    position: relative;
-    z-index: -1;
-}
-
-/*Section Self Care*/
-
+.work,
+.play,
+.study,
+.exercise,
+.social,
 .self-care {
     background-color: rgb(30, 1, 82);
     border-radius: 15px;
     width: 200px;
     height: 150px;
-    
 }
 
+.work-background,
+.play-background,
+.study-background,
+.exercise-background,
+.social-background,
 .self-care-background {
-    background-color: rgb(252, 249, 65);
     border-radius: 15px;
     width: 200px;
     height: 150px;
@@ -231,9 +117,49 @@ main{
     z-index: -1;
 }
 
+.work-background {
+    background-color: rgb(206, 156, 83);
+}
+
+/*Section Play*/
+
+.play-background {
+    background-color: rgb(105, 195, 255);
+}
+
+/*Section Study*/
+
+.study-background {
+    background-color: rgb(252, 107, 252);
+}
+
+/*Section Play*/
+
+.play-background {
+    background-color: rgb(105, 195, 255);
+}
+
+/*Section Exercise*/
+
+.exercise-background {
+    background-color: rgb(151, 255, 165);
+}
+
+/*Section Social*/
+
+.social-background {
+    background-color: rgb(118, 42, 218);
+}
+
+/*Section Self Care*/
+
+.self-care-background {
+    background-color: rgb(252, 249, 65);
+}
+
 /*Config padrão de todos as outras Section*/
 
-.background-image{
+.background-image {
     width: 50px;
     padding-left: 140px;
 }
@@ -245,7 +171,6 @@ main{
 }
 
 .titulo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 15px;
     padding-top: 17px;
@@ -253,7 +178,6 @@ main{
 }
 
 .tempo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 40px;
     padding-top: 10px;
@@ -261,7 +185,6 @@ main{
 }
 
 .tempo-anterior {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 10px;
     padding-top: 15px;
