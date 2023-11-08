@@ -89,8 +89,6 @@ main {
     padding-top: 15px;
 }
 
-/*Section "Work"*/
-
 .work,
 .play,
 .study,
@@ -116,6 +114,8 @@ main {
     position: relative;
     z-index: -1;
 }
+
+/*Section "Work"*/
 
 .work-background {
     background-color: rgb(206, 156, 83);
