@@ -89,6 +89,8 @@ main {
     padding-top: 15px;
 }
 
+/*Section da frente*/
+
 .work,
 .play,
 .study,
@@ -100,6 +102,8 @@ main {
     width: 200px;
     height: 150px;
 }
+
+/*Section de fundo*/
 
 .work-background,
 .play-background,
