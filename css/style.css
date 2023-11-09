@@ -20,6 +20,14 @@
     --self-care-background: rgb(252, 249, 65);
 }
 
+@media (max-width: 800px) and (max-height: 800px) {
+    .container {
+        max-width: 430px;
+        padding-top: 60px;
+        padding-bottom: 140px;
+        row-gap: 100px;
+    }
+}
 
 body {
     background-color: var(--body-background);
