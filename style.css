@@ -5,6 +5,20 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+:root {
+    --body-background: rgb(40, 9, 151);
+    --perfil-background: rgb(61, 23, 151);
+    --font-primaria: rgb(255, 255, 255);
+    --fonte-secundaria: rgba(255, 255, 255, 0.589);
+    --datas-div-background: rgb(30, 1, 82);
+    --work-background: rgb(206, 156, 83);
+    --play-background: rgb(105, 195, 255);
+    --study-background: rgb(252, 107, 252);
+    --exercise-background: rgb(151, 255, 165);
+    --social-background: rgb(118, 42, 218);
+    --self-care-background: rgb(252, 249, 65);
+}
+
 @media (max-width: 800px) and (max-height: 800px) {
     .container {
         max-width: 430px;
@@ -15,7 +29,7 @@
 }
 
 body {
-    background-color: rgb(40, 9, 151);
+    background-color: var(--body-background);
 }
 
 aside {}
@@ -32,7 +46,7 @@ aside {}
 /*Section do Perfil*/
 
 .perfil {
-    background-color: rgb(61, 23, 151);
+    background-color: var(--perfil-background);
     border-radius: 15px;
     margin: auto;
     width: 200px;
@@ -51,12 +65,12 @@ aside {}
     font-size: 15px;
     font-weight: 100;
     padding-left: 5px;
-    color: rgba(255, 255, 255, 0.589);
+    color: var(--fonte-secundaria);
 }
 
 .text-2 {
     font-size: 20px;
-    color: white;
+    color: var(--font-primaria);
     padding-top: 10px;
     padding-left: 5px;
 }
@@ -69,7 +83,7 @@ aside {}
 /*Complemento do Perfil*/
 
 .datas {
-    background-color: rgb(30, 1, 82);
+    background-color: var(--datas-div-background);
     border-radius: 15px;
     margin-top: -40px;
     width: 200px;
@@ -83,17 +97,17 @@ aside {}
 }
 
 .daily {
-    color: rgba(255, 255, 255, 0.589);
+    color: var(--fonte-secundaria);
     padding-top: 55px;
 }
 
 .weekly {
-    color: white;
+    color: var(--font-primaria);
     padding-top: 15px;
 }
 
 .monthly {
-    color: rgba(255, 255, 255, 0.589);
+    color: var(--fonte-secundaria);
     padding-top: 15px;
 }
 
@@ -105,7 +119,7 @@ aside {}
 .exercise,
 .social,
 .self-care {
-    background-color: rgb(30, 1, 82);
+    background-color: var(--datas-div-background);
     border-radius: 15px;
     width: 200px;
     height: 150px;
@@ -130,43 +144,43 @@ aside {}
 /*Section "Work"*/
 
 .work-background {
-    background-color: rgb(206, 156, 83);
+    background-color: var(--work-background);
 }
 
 /*Section Play*/
 
 .play-background {
-    background-color: rgb(105, 195, 255);
+    background-color: var(--play-background);
 }
 
 /*Section Study*/
 
 .study-background {
-    background-color: rgb(252, 107, 252);
+    background-color: var(--study-background);
 }
 
 /*Section Play*/
 
 .play-background {
-    background-color: rgb(105, 195, 255);
+    background-color: var(--play-background);
 }
 
 /*Section Exercise*/
 
 .exercise-background {
-    background-color: rgb(151, 255, 165);
+    background-color: var(--exercise-background);
 }
 
 /*Section Social*/
 
 .social-background {
-    background-color: rgb(118, 42, 218);
+    background-color: var(--social-background);
 }
 
 /*Section Self Care*/
 
 .self-care-background {
-    background-color: rgb(252, 249, 65);
+    background-color: var(--self-care-background);
 }
 
 /*Config padrão de todos as outras Section*/
@@ -183,21 +197,21 @@ aside {}
 }
 
 .titulo {
-    color: white;
+    color: var(--font-primaria);
     font-size: 15px;
     padding-top: 17px;
     padding-left: 25px;
 }
 
 .tempo {
-    color: white;
+    color: var(--font-primaria);
     font-size: 40px;
     padding-top: 10px;
     padding-left: 25px;
 }
 
 .tempo-anterior {
-    color: white;
+    color: var(--font-primaria);
     font-size: 10px;
     padding-top: 15px;
     padding-left: 25px;
