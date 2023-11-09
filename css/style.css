@@ -1,6 +1,6 @@
 * {
     max-height: 612px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,17 +22,24 @@
 
 body {
     background-color: var(--body-background);
+
 }
 
-aside {}
+aside {
+    position: absolute;
+    padding-top: 110px;
+}
 
 .container {
-    width: 700px;
-    height: 450px;
+    width: 650px;
+    height: 418px;
+    padding-top: 102px;
+    padding-left: 180px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 
 /*Section do Perfil*/
@@ -47,7 +54,7 @@ aside {}
 
 .foto-perfil {
     width: 80px;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 25px;
 }
 
@@ -56,16 +63,25 @@ aside {}
 .text-1 {
     font-size: 15px;
     font-weight: 100;
+    padding-top: 10px;
     padding-left: 5px;
+    margin-top: -30px;
+    height: 40px;
     color: var(--fonte-secundaria);
 }
 
 .text-2 {
     font-size: 20px;
     color: var(--font-primaria);
-    padding-top: 10px;
     padding-left: 5px;
 }
+
+.text-3 {
+    font-size: 20px;
+    color: var(--font-primaria);
+    padding-top: 5px;
+    padding-left: 5px;
+    }
 
 .info {
     padding-left: 20px;
@@ -79,7 +95,7 @@ aside {}
     border-radius: 15px;
     margin-top: -40px;
     width: 200px;
-    height: 170px;
+    height: 191.3px;
     position: relative;
     z-index: -1;
 }
@@ -90,7 +106,7 @@ aside {}
 
 .daily {
     color: var(--fonte-secundaria);
-    padding-top: 55px;
+    padding-top: 65px;
 }
 
 .weekly {

@@ -1,24 +1,32 @@
 @media (max-width: 800px) and (max-height: 800px) {
+    
     .container {
+        margin-left: -173px;
         max-width: 430px;
-        padding-top: 45px;
+        padding-top: 240px;
         padding-bottom: 180px;
         row-gap: 80px;
+    }
+
+    main{
+        width: 416px;
+        margin: 0px;
+        padding-bottom: 260px;
     }
 
     .perfil {
         background-color: var(--perfil-background);
         border-radius: 15px;
-        margin-top: 15px;
-        padding-top: 20px;
+        margin-top: -100px;
+        margin-left: 14px;
         width: 200px;
         height: 100px;
     }
 
     .foto-perfil {
-        width: 100px;
+        width: 80px;
         margin: -95px;
-        padding-top: 85px;
+        padding-top: 105px;
         padding-left: none;
         position: absolute;
     }
@@ -32,27 +40,27 @@
     .text-1 {
         font-size: 15px;
         font-weight: 100;
-        margin: -10px;
-        padding-left: 35px;
+        margin: -20px;
+        padding-top: 20px;
+        padding-left: 25px;
         color: var(--fonte-secundaria);
-        line-height: 40px;
     }
 
     .text-2 {
-        font-size: 20px;
+        font-size: 30px;
         color: var(--font-primaria);
-        margin: -40px;
-        padding-top: 0px;
-        padding-left: 140px;
+        margin: -80px;
+        padding-top: 15px;
+        padding-left: 145px;
         position: absolute;
     }
 
     .text-3 {
-        font-size: 20px;
+        font-size: 30px;
         color: var(--font-primaria);
-        margin: -40px;
-        padding-top: 0px;
-        padding-left: 210px;
+        margin: -80px;
+        padding-top: 30px;
+        padding-left: 255px;
         position: absolute;
     }
 
@@ -60,6 +68,7 @@
         background-color: var(--datas-div-background);
         border-radius: 15px;
         margin-top: -40px;
+        margin: 14px;
         width: 200px;
         height: 170px;
         position: relative;
@@ -118,8 +127,8 @@
     }
 
     .tres-pontos {
-        padding-left: 370px;
-        padding-top: 5px;
+        padding-left: 375px;
+        padding-top: 2px;
         position: absolute;
     }
 
@@ -143,9 +152,10 @@
     .tempo-anterior {
         color: var(--font-primaria);
         font-size: 15px;
-        margin: -63px;
-        padding-top: 40px;
-        padding-left: 330px;
+        margin: -40px;
+        margin-left: 250px;
+        padding-left: 10px;
+        position: absolute;
     }
 
 }
