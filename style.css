@@ -1,4 +1,5 @@
 * {
+    max-width: 800px;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -7,22 +8,22 @@ body {
     background-color: rgb(40, 9, 151);
 }
 
-main {
-    width: 80%;
-    height: 100%;
-    margin: 64px auto;
+aside{
+}
+
+.container{
+    width: 700px;
+    height: 400px;
     display: flex;
+    padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    align-content: space-between;
-
+    justify-content: space-between;
+    gap: 10px;
+    row-gap: 20px;
 }
 
 /*Section do Perfil*/
-
-.section-1 {
-    display: inline-block;
-}
 
 .perfil {
     background-color: rgb(61, 23, 151);
@@ -48,6 +49,7 @@ main {
 }
 
 .text-2 {
+    font-size: 20px;
     color: white;
     padding-top: 10px;
     padding-left: 5px;
