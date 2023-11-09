@@ -18,7 +18,7 @@
         background-color: var(--perfil-background);
         border-radius: 15px;
         margin-top: -100px;
-        margin-left: 14px;
+        margin-left: 10px;
         width: 200px;
         height: 100px;
     }
@@ -67,10 +67,10 @@
     .datas {
         background-color: var(--datas-div-background);
         border-radius: 15px;
-        margin-top: -40px;
-        margin: 14px;
+        margin-top: 200px;
+        margin: 11px;
         width: 200px;
-        height: 170px;
+        height: 70px;
         position: relative;
         z-index: -1;
     }
