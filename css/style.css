@@ -4,6 +4,7 @@
     margin: auto;
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 :root {
@@ -45,7 +46,9 @@ aside {
 /*Section do Perfil*/
 
 .perfil {
-    background-color: var(--perfil-background);
+    background-image: linear-gradient( to bottom, var(--social-background), var(--perfil-background), var(--body-background));
+    border-style: groove;
+    border-color: var(--datas-div-background);
     border-radius: 15px;
     margin: auto;
     width: 200px;
@@ -92,6 +95,8 @@ aside {
 
 .datas {
     background-color: var(--datas-div-background);
+    border-style: groove;
+    border-color: var(--datas-div-background);
     border-radius: 15px;
     margin-top: -40px;
     width: 200px;
@@ -127,7 +132,9 @@ aside {
 .exercise,
 .social,
 .self-care {
-    background-color: var(--datas-div-background);
+    background-image: linear-gradient(to bottom, var(--social-background) 1%, var(--datas-div-background) 75%);
+    border-style: groove;
+    border-color: var(--datas-div-background);
     border-radius: 15px;
     width: 200px;
     height: 150px;
@@ -141,6 +148,8 @@ aside {
 .exercise-background,
 .social-background,
 .self-care-background {
+    border-style: groove;
+    border-color: var(--datas-div-background);
     border-radius: 15px;
     width: 200px;
     height: 150px;
