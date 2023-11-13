@@ -30,6 +30,7 @@
         justify-content: center;
         width: 100%;
         height: 150px;
+        text-align: right;
     }
 
     .foto-perfil {
@@ -50,7 +51,7 @@
         font-weight: 100;
         display: flex;
         height: 15px;
-        width: 50px;
+
         padding: 0;
         margin: 0;
         color: var(--fonte-secundaria);
@@ -97,12 +98,12 @@
         justify-content: center;
         width: 260px;
         height: 150px;
-        gap: 25px;
+        gap: 10px;
     }
 
     .daily {
         color: var(--fonte-secundaria);
-        font-size: 25px;
+        font-size: 20px;
         padding-top: 60px;
         margin: 0;
         padding: 0;
@@ -110,12 +111,12 @@
 
     .weekly {
         color: var(--font-primaria);
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .monthly {
         color: var(--fonte-secundaria);
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /*Divs Gerais*/
