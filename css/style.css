@@ -30,14 +30,19 @@
 
 /*Configs do Body e Main*/
 
+html,
 body {
-    background-color: var(--body-background);
-    display: flex;
-    margin-top: 85px;
-    margin-left: 183px;
+    background-color: var(--perfil-background);
+    height: 100%;
+    width: 100%;
     padding: 0;
-    box-sizing: border-box;
-    width: 850px;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -47,12 +52,12 @@ main {
 /*Section do Perfil*/
 
 .perfil {
-    background-image: linear-gradient(to bottom, var(--social-background), var(--perfil-background), var(--body-background));
+    background-color: var(--body-background);
     border-radius: 15px;
-    margin-top: 4.1px;
     margin-right: 25px;
     width: 200px;
-    height: 250px;
+    height: 253px;
+    position: relative;
 }
 
 .foto-perfil {
@@ -97,9 +102,8 @@ main {
     border-radius: 15px;
     margin-top: -48px;
     width: 200px;
-    height: 191.3px;
-    position: relative;
-    z-index: -1;
+    height: 189px;
+    z-index: 1;
 }
 
 .dwm {
@@ -128,8 +132,6 @@ main {
     position: relative;
     width: 650px;
     height: 418px;
-    max-width: 900px;
-    margin: 0;
     justify-content: space-between;
 }
 
@@ -146,7 +148,8 @@ main {
     background-color: var(--datas-div-background);
     border-radius: 15px;
     width: 200px;
-    height: 168px;
+    height: 162px;
+    z-index: 1;
 }
 
 /*Background das Divs*/
@@ -161,7 +164,6 @@ main {
     width: 200px;
     height: 170px;
     margin-top: -200px;
-    position: relative;
     z-index: -1;
 }
 
