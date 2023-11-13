@@ -1,4 +1,4 @@
-@media (max-width: 880px) {
+@media (max-width: 650px) {
 
     html,
     body {
@@ -25,19 +25,17 @@
     .perfil {
         background-color: var(--perfil-background);
         border-radius: 15px;
-        width: 100%;
+        margin: 100px 0 0 0px;
+        width: 400px;
         height: 150px;
     }
 
     .foto-perfil {
         width: 80px;
-
     }
 
     .section-1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: grid;
     }
 
     /*Texto do Perfil*/
@@ -47,7 +45,6 @@
         font-weight: 100;
         display: flex;
         height: 15px;
-        width: 50px;
         padding: 0;
         margin: 0;
         color: var(--fonte-secundaria);
@@ -57,7 +54,6 @@
         font-size: 20px;
         color: var(--font-primaria);
         margin: 0;
-        width: 80px;
     }
 
     .text-3 {
@@ -68,12 +64,8 @@
     }
 
     .info {
-        padding-left: 20px;
-        display: flex;
-        align-items: baseline;
-        justify-content: left;
-        width: 100%;
-
+        margin-top: -60px;
+        margin-left: 100px;
     }
 
     /*Datas do Perfil*/
@@ -81,20 +73,18 @@
     .datas {
         background-color: var(--datas-div-background);
         border-radius: 15px;
-        margin-top: 0px;
-        width: 100%;
-        height: 150px;
+        margin-top: -50px;
+        height: 100px;
         z-index: 1;
     }
 
     .dwm {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 260px;
-        height: 150px;
-        gap: 25px;
+        padding: 0;
+        margin: auto;
+        height: 100px;
     }
 
     .daily {
@@ -121,9 +111,10 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        gap: 30px;
+        padding: 0;
         position: relative;
-        width: 650px;
-        height: 418px;
+        width: 442px;
         justify-content: space-between;
     }
 
@@ -136,10 +127,12 @@
     .social,
     .self-care {
         display: flex;
+        justify-content: center;
         position: relative;
         background-color: var(--datas-div-background);
         border-radius: 15px;
-        width: 200px;
+        margin: 60px 0 0 22px;
+        width: 400px;
         height: 162px;
         z-index: 1;
     }
@@ -153,7 +146,8 @@
     .social-background,
     .self-care-background {
         border-radius: 15px;
-        width: 200px;
+        width: 400px;
+        margin: 60px 0 0 22px;
         height: 170px;
         margin-top: -200px;
         z-index: -1;
@@ -203,11 +197,11 @@
 
     .background-image {
         width: 50px;
-        padding-left: 140px;
+        padding-left: 330px;
     }
 
     .reticencias {
-        margin: 20px 0 0 160px;
+        margin: 20px 0 0 230px;
         position: absolute;
         text-align: right;
         display: flex;

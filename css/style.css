@@ -32,7 +32,7 @@
 
 html,
 body {
-    background-color: var(--perfil-background);
+    background-color: var(--body-background);
     height: 100%;
     width: 100%;
     padding: 0;
@@ -52,7 +52,7 @@ main {
 /*Section do Perfil*/
 
 .perfil {
-    background-color: var(--body-background);
+    background-color: var(--perfil-background);
     border-radius: 15px;
     margin-right: 25px;
     width: 200px;
