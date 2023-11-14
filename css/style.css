@@ -54,6 +54,7 @@ main {
 .perfil {
     background-color: var(--perfil-background);
     border-radius: 15px;
+    display: block;
     margin-right: 25px;
     width: 200px;
     height: 253px;
@@ -62,8 +63,10 @@ main {
 
 .foto-perfil {
     width: 80px;
+    margin: 0 auto;
     padding-top: 15px;
-    padding-left: 25px;
+    padding-left: 15px;
+
 }
 
 /*Texto do Perfil*/
@@ -71,23 +74,29 @@ main {
 .text-1 {
     font-size: 15px;
     font-weight: 100;
+    margin: 5px;
+    margin-top: 15px;
+    padding-left: 15px;
     display: flex;
-    justify-content: start;
-    height: 10px;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    width: 0;
+
     color: var(--fonte-secundaria);
 }
 
 .text-2 {
     font-size: 20px;
+    width: 100px;    
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     color: var(--font-primaria);
-    margin: 0px;
-}
+    
 
-.text-3 {
-    font-size: 20px;
-    color: var(--font-primaria);
-    padding-top: 10px;
-    margin: 0px;
 }
 
 .info {

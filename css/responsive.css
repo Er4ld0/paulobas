@@ -1,5 +1,17 @@
 @media (max-width: 880px) {
 
+    body, .perfil, .section-1, .dwm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main, .text-1, .info, .container, .work, .play, .study, .exercise, .social, .self-care, .reticencias{
+        display: flex;
+    }
+
+
+
     html,
     body {
         background-color: var(--body-background);
@@ -10,13 +22,9 @@
     }
 
     body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     main {
-        display: flex;
         flex-direction: column;
     }
 
@@ -25,9 +33,6 @@
     .perfil {
         background-color: var(--perfil-background);
         border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 100%;
         height: 150px;
         text-align: right;
@@ -35,13 +40,9 @@
 
     .foto-perfil {
         width: 80px;
-
     }
 
     .section-1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     /*Texto do Perfil*/
@@ -49,19 +50,19 @@
     .text-1 {
         font-size: 15px;
         font-weight: 100;
-        display: flex;
         height: 15px;
-
-        padding: 0;
+        overflow-wrap: break-word;
         margin: 0;
+        padding: 0;
         color: var(--fonte-secundaria);
     }
 
     .text-2 {
         font-size: 20px;
         color: var(--font-primaria);
-        margin: 0;
+        margin: 0 auto;
         width: 80px;
+        
     }
 
     .text-3 {
@@ -73,7 +74,6 @@
 
     .info {
         padding-left: 20px;
-        display: flex;
         align-items: baseline;
         justify-content: left;
         width: 100%;
@@ -92,10 +92,7 @@
     }
 
     .dwm {
-        display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
         width: 260px;
         height: 150px;
         gap: 10px;
@@ -122,7 +119,6 @@
     /*Divs Gerais*/
 
     .container {
-        display: flex;
         flex-wrap: wrap;
         align-items: center;
         position: relative;
@@ -139,7 +135,6 @@
     .exercise,
     .social,
     .self-care {
-        display: flex;
         position: relative;
         background-color: var(--datas-div-background);
         border-radius: 15px;
@@ -214,7 +209,6 @@
         margin: 20px 0 0 160px;
         position: absolute;
         text-align: right;
-        display: flex;
         justify-content: right;
     }
 
